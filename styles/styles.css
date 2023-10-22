@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  height: auto;
+}
+.nav{
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 10px 15px;
+  
+  box-shadow: 5px black;
+}
+.nav a{
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+#arch{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+span{
+  background-color: black;
+  color: white;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.center h1{
+  display: flex;
+
+}
+.logo{
+  text-align: center;
+  color: black;
+  opacity: 1;
+}
+.image h2{
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+#hed{
+  background-color: white;
+  color: black;
+  margin-bottom: 20px;
+  margin-top:30px ;
+}
+.image{
+  position: relative;
+  margin: 10px 5px;
+  display: inline-block;
+}
+.image h2{
+  position: absolute;
+}
+.image img{
+  width: 250px;
+  height: 200px;
+}
+.image-2 p{
+  max-width: 250px;
+  margin: 10px 0px;
+}
+.image-2 img{
+  width: 250px;
+  height: 200px;
+}
+.image-2{
+  justify-content: space-between;
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 200px;
+}
+.btn{
+  text-align: center;
+  width: 100%;
+  background-color: antiquewhite;
+  border: none;
+  padding: 6px 3px;
+  margin: 5px 0px ;
+}
+.cont h2, p{
+  margin-top: 20px;
+  padding: 20px 0px;
+  color: black;
+  background-color: white;
+}
+input{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.info #btn{
+  display: block;
+  padding: 5px 5px;
+  margin-top: 20px ;
+  color: white;
+  background-color: black;
+  margin-bottom: 30px;
+}
+.last img{
+  width: 100%;
+}
+footer p{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
